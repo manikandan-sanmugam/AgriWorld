@@ -9,7 +9,38 @@ Online business websites are one of the ways to increase sales and income. As on
 
 **Project Description:**
 
-Agriculture is the backbone of our country. Agriculture businesses are facing many challenges including losses due to stocking  products for a long time. To speed up the rotation of goods, we are implementing websites to reach customers in other regions. Customers can visit the website to explore the product availability and contact details of the retailer. Specifications and description of each variety of crops are mentioned on the website itself to make it easier to select a variety. Customers can download a catalog of available products both in Excel and PDF format along with a product ID. The section called "Request Call" asks for the mobile number of the customer to reach out easily. This process reduces the cost due to physical requirements. This project will help the agricultural business to be successful.
+->Agriculture is the backbone of our country. Agriculture businesses are facing many challenges including losses due to stocking  products for a long time. 
+
+->To speed up the rotation of goods, we are implementing websites to reach customers in other regions. 
+
+->Customers can visit the website to explore the product availability and contact details of the retailer. 
+
+->Specifications and description of each variety of crops are mentioned on the website itself to make it easier to select a variety.
+
+->Customers can download a catalog of available products both in Excel and PDF format along with a product ID. 
+
+->The section called "Request Call" asks for the mobile number of the customer to reach out easily. 
+
+->This process reduces the cost due to physical requirements. 
+
+->This project will help the agricultural business to be successful.
+
+**Important Links**
+
+Project link: https://proud-stone-09f058d10.2.azurestaticapps.net
+
+Github Repository: https://github.com/manikandan-sanmugam/AgriWorld
+
+**Team Members:**
+
+1) Manikandan S : https://github.com/manikandan-sanmugam
+
+2) Jeyaprakash J : https://github.com/JeyaprakashJp
+
+3) Kaviyadevi M : https://github.com/kaviyadevi53
+
+4) Koushika M : https://github.com/Koushika07
+
 
 **Technology Stack:**
 
