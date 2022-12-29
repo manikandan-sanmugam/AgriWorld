@@ -31,6 +31,9 @@ Project link: https://proud-stone-09f058d10.2.azurestaticapps.net
 
 Github Repository: https://github.com/manikandan-sanmugam/AgriWorld
 
+Video Demonstration Link: https://youtu.be/DmuFWkKsnqo
+
+
 **Team Members:**
 
 1) Manikandan S : https://github.com/manikandan-sanmugam
@@ -62,6 +65,18 @@ Some key features of Azure Static Web Apps include:
 
 **2) Azure Storage Account**
 
+Azure storage service is used for downloadable catalog. The files are uploaded to storage container named "agriworld".
+
+**Downloadable Catalog**
+
+To download the catalog, users will need to have access to the container in Azure Storage. This can be done by providing them with a shared access signature (SAS) or by setting the container's access policies to public. The catalog is in formats which are Excel and PDF.
+
+
+PDF catalog: https://agriworld.blob.core.windows.net/agriworld/catalog.pdf
+
+Excel catalog; https://agriworld.blob.core.windows.net/agriworld/catalog.xlsx
+
+
 Azure Storage is a cloud-based service provided by Microsoft Azure that enables developers to store and manage data in the cloud. There are several types of storage options available, including:
 
 ->Blob storage: A service for storing large amounts of unstructured data, such as images, videos, and documents.
@@ -92,27 +107,31 @@ Azure Storage is a cloud-based service provided by Microsoft Azure that enables 
 For more detailed instructions on how to set up a build and deployment pipeline for a static website using Azure Static Web Apps and GitHub, you may want to refer to the Azure Static Web Apps documentation.
 
 
-**Downloadable Catalog**
+**Steps to upload files to container using the Azure portal:**
 
-To download the catalog, users will need to have access to the container in Azure Storage. This can be done by providing them with a shared access signature (SAS) or by setting the container's access policies to public. The catalog is in formats which are Excel and PDF.
+->Navigate to the Azure Storage account in the Azure portal or https://portal.azure.com/#create/Microsoft.StorageAccount-ARM.
 
+->Create storage account resourse (agriworld). 
+
+->Select the container (agriworld) in which we want to upload the file.
+
+->Click the "Upload" button, then select the file(catalog) you want to upload.
+
+->Once the file has been uploaded, it will be listed in the container.
+
+->Set the container's access policies to public.
+
+->The files are accessed through the public link.
 
 PDF catalog: https://agriworld.blob.core.windows.net/agriworld/catalog.pdf
 
 Excel catalog; https://agriworld.blob.core.windows.net/agriworld/catalog.xlsx
 
+**Contributions**
 
-**Steps to upload files to container using the Azure portal:**
+We welcome contributions to this project. If you have an idea for an improvement or a bug to report, please open an issue or a pull request.
 
-->Navigate to the Azure Storage account in the Azure portal.
 
-->Select the container (agriworld) in which you want to upload the file.
-
-->Click the "Upload" button, then select the file you want to upload.
-
-->Once the file has been uploaded, it will be listed in the container.
-
-->set the container's access policies to public.
 
 
 
