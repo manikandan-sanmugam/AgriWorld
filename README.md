@@ -11,6 +11,38 @@ Online business websites are one of the ways to increase sales and income. As on
 
 Agriculture is the backbone of our country. Agriculture businesses are facing many challenges including losses due to stocking  products for a long time. To speed up the rotation of goods, we are implementing websites to reach customers in other regions. Customers can visit the website to explore the product availability and contact details of the retailer. Specifications and description of each variety of crops are mentioned on the website itself to make it easier to select a variety. Customers can download a catalog of available products both in Excel and PDF format along with a product ID. The section called "Request Call" asks for the mobile number of the customer to reach out easily. This process reduces the cost due to physical requirements. This project will help the agricultural business to be successful.
 
+**Technology Stack:**
+
+We used two azure services for this project.
+
+**1) Azure Static Web App **
+     
+AgriWorld project is deployed using Azure static web app services. Azure Static Web Apps is a service provided by Microsoft Azure that allows developers to host static web applications on Azure. A static web application is a website that consists of HTML, CSS, and JavaScript files that are served to the client without any server-side processing.
+
+Some key features of Azure Static Web Apps include:
+
+->Continuous deployment: Azure Static Web Apps automatically builds and deploys your website whenever you push changes to your code repository.
+
+->Global scale: Azure Static Web Apps uses Azure's global network of datacenters to ensure that your website is delivered quickly and reliably to users around the world.
+
+->Custom domains: You can use a custom domain for your website with Azure Static Web Apps.
+
+->Security: Azure Static Web Apps includes built-in security features, such as TLS/SSL encryption, to help protect your website and its users.
+
+**2) Azure Storage Account**
+
+Azure Storage is a cloud-based service provided by Microsoft Azure that enables developers to store and manage data in the cloud. There are several types of storage options available, including:
+
+->Blob storage: A service for storing large amounts of unstructured data, such as images, videos, and documents.
+
+->File storage: A service for storing and sharing files, similar to a network file share.
+
+->Table storage: A NoSQL key-value store for storing structured data at scale.
+
+->Queue storage: A service for storing and retrieving messages in a queue, to enable communication between different parts of an application.
+
+->Disk storage: A service for storing persistent disks that can be attached to Azure virtual machines.
+
 **Deploy website using Azure static web app:**
 
 ->navigate to https://portal.azure.com/#create/Microsoft.StaticApp or click on new resource and then search for Azure Static Web App and click create.
