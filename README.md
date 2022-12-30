@@ -49,7 +49,7 @@ Video Demonstration Link: https://youtu.be/DmuFWkKsnqo
 
 We used two azure services for this project.
 
-( Screenshots Attached in Readme (Screenshot) folder )
+( Screenshots Attached in AgriWorld/Readme (Screenshots) folder )
 
 **1) Azure Static Web App **
      
