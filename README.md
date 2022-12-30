@@ -49,6 +49,8 @@ Video Demonstration Link: https://youtu.be/DmuFWkKsnqo
 
 We used two azure services for this project.
 
+( Screenshots Attached in Readme (Screenshot) folder )
+
 **1) Azure Static Web App **
      
 AgriWorld project is deployed using Azure static web app services. Azure Static Web Apps is a service provided by Microsoft Azure that allows developers to host static web applications on Azure. A static web application is a website that consists of HTML, CSS, and JavaScript files that are served to the client without any server-side processing.
