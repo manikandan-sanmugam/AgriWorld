@@ -25,9 +25,11 @@ Online business websites are one of the ways to increase sales and income. As on
 
 ->This project will help the agricultural business to be successful.
 
+
+
 **Important Links**
 
-Project link: https://proud-stone-09f058d10.2.azurestaticapps.net
+Project Deployment link: https://proud-stone-09f058d10.2.azurestaticapps.net
 
 Github Repository: https://github.com/manikandan-sanmugam/AgriWorld
 
@@ -45,13 +47,17 @@ Video Demonstration Link: https://youtu.be/DmuFWkKsnqo
 4) Koushika M : https://github.com/Koushika07
 
 
-**1.Technology Stack:**
+**1. Azure Services used and its features**
 
-We used two azure services for this project.
+Azure Servies utilized:
 
-( Screenshots Attached in AgriWorld/Readme (Screenshots) folder )
+a) Azure Static Web App
+b) Azure Storage Accounts (container storage)
 
-**1.1 Azure Static Web App **
+![Resources](https://user-images.githubusercontent.com/56933033/215108143-34aa84e2-920c-4f96-888d-b491e78a4f5a.png)
+
+
+**1.1 Azure Static Web App**
      
 AgriWorld project is deployed using Azure static web app services. Azure Static Web Apps is a service provided by Microsoft Azure that allows developers to host static web applications on Azure. A static web application is a website that consists of HTML, CSS, and JavaScript files that are served to the client without any server-side processing.
 
@@ -67,18 +73,6 @@ Some key features of Azure Static Web Apps include:
 
 **1.2 Azure Storage Account**
 
-Azure storage service is used for downloadable catalog. The files are uploaded to storage container named "agriworld".
-
-**Downloadable Catalog**
-
-To download the catalog, users will need to have access to the container in Azure Storage. This can be done by providing them with a shared access signature (SAS) or by setting the container's access policies to public. The catalog is in formats which are Excel and PDF.
-
-
-PDF catalog: https://agriworld.blob.core.windows.net/agriworld/catalog.pdf
-
-Excel catalog; https://agriworld.blob.core.windows.net/agriworld/catalog.xlsx
-
-
 Azure Storage is a cloud-based service provided by Microsoft Azure that enables developers to store and manage data in the cloud. There are several types of storage options available, including:
 
 ->Blob storage: A service for storing large amounts of unstructured data, such as images, videos, and documents.
@@ -91,7 +85,7 @@ Azure Storage is a cloud-based service provided by Microsoft Azure that enables 
 
 ->Disk storage: A service for storing persistent disks that can be attached to Azure virtual machines.
 
-**2.Deployment steps**
+**2. Deployment steps and implementation using Azure services**
 
 **2.1 Deploy website using Azure static web app:**
 
@@ -107,8 +101,10 @@ Azure Storage is a cloud-based service provided by Microsoft Azure that enables 
 
 ->Wait for deployement to complete.
 
+**Deployment Screenshot (Azure Static Web App)**
 
-For more detailed instructions on how to set up a build and deployment pipeline for a static website using Azure Static Web Apps and GitHub, you may want to refer to the Azure Static Web Apps documentation.
+![Azure static webapp](https://user-images.githubusercontent.com/56933033/215101866-2790c87d-9438-4cdd-b3e0-763e2514d977.png)
+
 
 
 **2.2 Steps to upload files to container using the Azure portal:**
@@ -127,15 +123,44 @@ For more detailed instructions on how to set up a build and deployment pipeline 
 
 ->The files are accessed through the public link.
 
+
+Azure storage service is used for downloadable catalog. The files are uploaded to storage container named "agriworld".
+
+**Azure Storage Account Screenshot (storage container name 'agriworld')**
+
+![Azure storage account](https://user-images.githubusercontent.com/56933033/215102803-cfd645df-0f38-4553-8e60-06c6056b5b66.png)
+
+**Azure Storage Container Screenshot that contains catalog files inside the 'agriworld' container that can be publicly accessed**
+![Agriworld container (Storage account)](https://user-images.githubusercontent.com/56933033/215102979-797e053c-5974-4fdd-89ef-ce7a8c212ea8.png)
+
+**Public Access link of catalog files**
+
 PDF catalog: https://agriworld.blob.core.windows.net/agriworld/catalog.pdf
 
 Excel catalog; https://agriworld.blob.core.windows.net/agriworld/catalog.xlsx
 
-**Contributions**
+**Downloadable Catalog**
 
-We welcome contributions to this project. If you have an idea for an improvement or a bug to report, please open an issue or a pull request.
+To download the catalog, users will need to have access to the container in Azure Storage. This can be done by providing them with a shared access signature (SAS) or by setting the container's access policies to public. The catalog is in formats which are Excel and PDF and it is uploaded in the container storage account.
+
+This service is used to update the catalog in the website by just replacing the files in the azure storage container itself. This makes the process of catalog updation easier.
+
+PDF catalog: https://agriworld.blob.core.windows.net/agriworld/catalog.pdf
+
+Excel catalog; https://agriworld.blob.core.windows.net/agriworld/catalog.xlsx
+
+The catalog can be downloaded by clicking download catalog buttons.
+
+**(Screenshot)**
 
 
+![Screenshot (2696)](https://user-images.githubusercontent.com/56933033/215105239-5eb605a5-658a-47ad-b794-7391713b3bed.png)
+
+
+By clicking the Download, it will redirect to the catalog files uploaded in the azure storage accounts
+
+
+![Screenshot (2697)](https://user-images.githubusercontent.com/56933033/215106682-6924e953-bdeb-4201-b98e-3e0f67e297da.png)
 
 
 
