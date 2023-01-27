@@ -45,13 +45,13 @@ Video Demonstration Link: https://youtu.be/DmuFWkKsnqo
 4) Koushika M : https://github.com/Koushika07
 
 
-**Technology Stack:**
+**1.Technology Stack:**
 
 We used two azure services for this project.
 
 ( Screenshots Attached in AgriWorld/Readme (Screenshots) folder )
 
-**1) Azure Static Web App **
+**1.1 Azure Static Web App **
      
 AgriWorld project is deployed using Azure static web app services. Azure Static Web Apps is a service provided by Microsoft Azure that allows developers to host static web applications on Azure. A static web application is a website that consists of HTML, CSS, and JavaScript files that are served to the client without any server-side processing.
 
@@ -65,7 +65,7 @@ Some key features of Azure Static Web Apps include:
 
 ->Security: Azure Static Web Apps includes built-in security features, such as TLS/SSL encryption, to help protect your website and its users.
 
-**2) Azure Storage Account**
+**1.2 Azure Storage Account**
 
 Azure storage service is used for downloadable catalog. The files are uploaded to storage container named "agriworld".
 
@@ -91,7 +91,9 @@ Azure Storage is a cloud-based service provided by Microsoft Azure that enables 
 
 ->Disk storage: A service for storing persistent disks that can be attached to Azure virtual machines.
 
-**Deploy website using Azure static web app:**
+**2.Deployment steps**
+
+**2.1 Deploy website using Azure static web app:**
 
 ->navigate to https://portal.azure.com/#create/Microsoft.StaticApp or click on new resource and then search for Azure Static Web App and click create.
 
@@ -109,7 +111,7 @@ Azure Storage is a cloud-based service provided by Microsoft Azure that enables 
 For more detailed instructions on how to set up a build and deployment pipeline for a static website using Azure Static Web Apps and GitHub, you may want to refer to the Azure Static Web Apps documentation.
 
 
-**Steps to upload files to container using the Azure portal:**
+**2.2 Steps to upload files to container using the Azure portal:**
 
 ->Navigate to the Azure Storage account in the Azure portal or https://portal.azure.com/#create/Microsoft.StorageAccount-ARM.
 
